@@ -4,7 +4,7 @@
 
 ## 🐛 报告 Bug
 
-1. 先搜索 [Issues](https://github.com/ZhuLinsen/daily_stock_analysis/issues) 确认问题未被报告
+1. 先搜索 [Issues](https://github.com/catchfu/stock_analysis_daily/issues) 确认问题未被报告
 2. 使用 Bug Report 模板创建新 Issue
 3. 提供详细的复现步骤和环境信息
 
@@ -20,7 +20,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/ZhuLinsen/daily_stock_analysis.git
+git clone https://github.com/catchfu/stock_analysis_daily.git
 cd daily_stock_analysis
 
 # 创建虚拟环境

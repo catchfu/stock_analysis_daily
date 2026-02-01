@@ -2,8 +2,8 @@
 
 # 📈 股票智能分析系統
 
-[![GitHub stars](https://img.shields.io/github/stars/ZhuLinsen/daily_stock_analysis?style=social)](https://github.com/ZhuLinsen/daily_stock_analysis/stargazers)
-[![CI](https://github.com/ZhuLinsen/daily_stock_analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/ZhuLinsen/daily_stock_analysis/actions/workflows/ci.yml)
+[![GitHub stars](https://img.shields.io/github/stars/catchfu/stock_analysis_daily?style=social)](https://github.com/catchfu/stock_analysis_daily/stargazers)
+[![CI](https://github.com/catchfu/stock_analysis_daily/actions/workflows/ci.yml/badge.svg)](https://github.com/catchfu/stock_analysis_daily/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-Ready-2088FF?logo=github-actions&logoColor=white)](https://github.com/features/actions)
@@ -15,15 +15,6 @@
 [English](../README_EN.md) | [简体中文](../README.md) | 繁體中文
 
 </div>
-
-## 💖 贊助商 (Sponsors)
-
-<div align="center">
-  <a href="https://serpapi.com/baidu-search-api?utm_source=github_daily_stock_analysis" target="_blank">
-    <img src="../sources/serpapi_banner_zh.png" alt="輕鬆抓取搜尋引擎上的即時金融新聞數據 - SerpApi" height="160">
-  </a>
-</div>
-<br>
 
 ## ✨ 功能特性
 
@@ -224,7 +215,7 @@ daily_stock_analysis/
 
 ## 🗺️ Roadmap
 
-> 📢 以下功能將視後續情況逐步完成，如果你有好的想法或建議，歡迎 [提交 Issue](https://github.com/ZhuLinsen/daily_stock_analysis/issues) 討論！
+> 📢 以下功能將視後續情況逐步完成，如果你有好的想法或建議，歡迎 [提交 Issue](https://github.com/catchfu/stock_analysis_daily/issues) 討論！
 
 ### 🔔 通知渠道擴展
 - [x] 企業微信機器人
@@ -269,15 +260,15 @@ daily_stock_analysis/
 這將有助於項目的持續維護和社區發展。
 
 ## 📬 聯繫與合作
-- GitHub Issues：[提交 Issue](https://github.com/ZhuLinsen/daily_stock_analysis/issues)
+- GitHub Issues：[提交 Issue](https://github.com/catchfu/stock_analysis_daily/issues)
 
 ## ⭐ Star History
 
-<a href="https://star-history.com/#ZhuLinsen/daily_stock_analysis&Date">
+<a href="https://star-history.com/#catchfu/stock_analysis_daily&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ZhuLinsen/daily_stock_analysis&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ZhuLinsen/daily_stock_analysis&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ZhuLinsen/daily_stock_analysis&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=catchfu/stock_analysis_daily&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=catchfu/stock_analysis_daily&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=catchfu/stock_analysis_daily&type=Date" />
  </picture>
 </a>
 
@@ -288,15 +279,3 @@ daily_stock_analysis/
 ---
 
 **如果覺得有用，請給個 ⭐ Star 支持一下！**
-
-<!-- 贊賞錨點 -->
-<a id="sponsor"></a>
-###### ☕ 請我喝杯咖啡
-- 如果覺得本項目對你有幫助且行有餘力，可以請我喝杯咖啡，支持項目的持續維護與迭代；不贊賞也完全不影響使用。   
-<small>（贊賞時可備註聯繫方式，方便私信致謝與後續交流反饋）</small>
-- 感謝支持, 祝您股市長虹，拿主力當提款機。
-
-<div align="center">
-  <img src="../sources/wechatpay.jpg" alt="WeChat Pay" width="200" style="margin-right: 20px;">
-  <img src="../sources/alipay.jpg" alt="Alipay" width="200">
-</div>

@@ -194,7 +194,7 @@
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/ZhuLinsen/daily_stock_analysis.git
+git clone https://github.com/catchfu/stock_analysis_daily.git
 cd daily_stock_analysis
 
 # 2. 配置环境变量
@@ -587,4 +587,4 @@ A: 检查是否启用了 Actions，以及 cron 表达式是否正确（注意是
 
 ---
 
-更多问题请 [提交 Issue](https://github.com/ZhuLinsen/daily_stock_analysis/issues)
+更多问题请 [提交 Issue](https://github.com/catchfu/stock_analysis_daily/issues)

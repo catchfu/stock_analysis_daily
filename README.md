@@ -1,9 +1,9 @@
 <div align="center">
 
-# 📈 股票智能分析系统
+# 📈 股票智能分析 system
 
-[![GitHub stars](https://img.shields.io/github/stars/ZhuLinsen/daily_stock_analysis?style=social)](https://github.com/ZhuLinsen/daily_stock_analysis/stargazers)
-[![CI](https://github.com/ZhuLinsen/daily_stock_analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/ZhuLinsen/daily_stock_analysis/actions/workflows/ci.yml)
+[![GitHub stars](https://img.shields.io/github/stars/catchfu/stock_analysis_daily?style=social)](https://github.com/catchfu/stock_analysis_daily/stargazers)
+[![CI](https://github.com/catchfu/stock_analysis_daily/actions/workflows/ci.yml/badge.svg)](https://github.com/catchfu/stock_analysis_daily/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-Ready-2088FF?logo=github-actions&logoColor=white)](https://github.com/features/actions)
@@ -15,14 +15,6 @@
 [English](docs/README_EN.md) | 简体中文 | [繁體中文](docs/README_CHT.md)
 
 </div>
-
-## 💖 赞助商 (Sponsors)
-<div align="center">
-  <a href="https://serpapi.com/baidu-search-api?utm_source=github_daily_stock_analysis" target="_blank">
-    <img src="./sources/serpapi_banner_zh.png" alt="轻松抓取搜索引擎上的实时金融新闻数据 - SerpApi" height="160">
-  </a>
-</div>
-<br>
 
 
 ## ✨ 功能特性
@@ -103,7 +95,7 @@
 | `STOCK_LIST` | 自选股代码，如 `600519,hk00700,AAPL,TSLA` | ✅ |
 | `TAVILY_API_KEYS` | [Tavily](https://tavily.com/) 搜索 API（新闻搜索） | 推荐 |
 | `BOCHA_API_KEYS` | [博查搜索](https://open.bocha.cn/) Web Search API（中文搜索优化，支持AI摘要，多个key用逗号分隔） | 可选 |
-| `SERPAPI_API_KEYS` | [SerpAPI](https://serpapi.com/baidu-search-api?utm_source=github_daily_stock_analysis) 备用搜索 | 可选 |
+| `SERPAPI_API_KEYS` | [SerpAPI](https://serpapi.com/baidu-search-api?utm_source=github_catchfu_stock_analysis_daily) 备用搜索 | 可选 |
 | `TUSHARE_TOKEN` | [Tushare Pro](https://tushare.pro/) Token | 可选 |
 
 #### 3. 启用 Actions
@@ -224,7 +216,7 @@ daily_stock_analysis/
 
 ## 🗺️ Roadmap
 
-> 📢 以下功能将视后续情况逐步完成，如果你有好的想法或建议，欢迎 [提交 Issue](https://github.com/ZhuLinsen/daily_stock_analysis/issues) 讨论！
+> 📢 以下功能将视后续情况逐步完成，如果你有好的想法或建议，欢迎 [提交 Issue](https://github.com/catchfu/stock_analysis_daily/issues) 讨论！
 
 ### 🔔 通知渠道扩展
 - [x] 企业微信机器人
@@ -270,15 +262,15 @@ daily_stock_analysis/
 这将有助于项目的持续维护和社区发展。
 
 ## 📬 联系与合作
-- GitHub Issues：[提交 Issue](https://github.com/ZhuLinsen/daily_stock_analysis/issues)
+- GitHub Issues：[提交 Issue](https://github.com/catchfu/stock_analysis_daily/issues)
 
 ## ⭐ Star History
 
-<a href="https://star-history.com/#ZhuLinsen/daily_stock_analysis&Date">
+<a href="https://star-history.com/#catchfu/stock_analysis_daily&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ZhuLinsen/daily_stock_analysis&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ZhuLinsen/daily_stock_analysis&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ZhuLinsen/daily_stock_analysis&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=catchfu/stock_analysis_daily&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=catchfu/stock_analysis_daily&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=catchfu/stock_analysis_daily&type=Date" />
  </picture>
 </a>
 
@@ -289,15 +281,3 @@ daily_stock_analysis/
 ---
 
 **如果觉得有用，请给个 ⭐ Star 支持一下！**
-
-<!-- 赞赏锚点 -->
-<a id="sponsor"></a>
-###### ☕ 请我喝杯咖啡
-- 如果觉得本项目对你有帮助且行有余力，可以请我喝杯咖啡，支持项目的持续维护与迭代；不赞赏也完全不影响使用。   
-<small>（赞赏时可备注联系方式，方便私信致谢与后续交流反馈）</small>
-- 感谢支持, 祝您股市长虹，拿主力当提款机。
-
-<div align="center">
-  <img src="./sources/wechatpay.jpg" alt="WeChat Pay" width="200" style="margin-right: 20px;">
-  <img src="./sources/alipay.jpg" alt="Alipay" width="200">
-</div>

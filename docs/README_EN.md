@@ -2,8 +2,8 @@
 
 # 📈 AI Stock Analysis System
 
-[![GitHub stars](https://img.shields.io/github/stars/ZhuLinsen/daily_stock_analysis?style=social)](https://github.com/ZhuLinsen/daily_stock_analysis/stargazers)
-[![CI](https://github.com/ZhuLinsen/daily_stock_analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/ZhuLinsen/daily_stock_analysis/actions/workflows/ci.yml)
+[![GitHub stars](https://img.shields.io/github/stars/catchfu/stock_analysis_daily?style=social)](https://github.com/catchfu/stock_analysis_daily/stargazers)
+[![CI](https://github.com/catchfu/stock_analysis_daily/actions/workflows/ci.yml/badge.svg)](https://github.com/catchfu/stock_analysis_daily/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-Ready-2088FF?logo=github-actions&logoColor=white)](https://github.com/features/actions)
@@ -15,15 +15,6 @@
 English | [简体中文](../README.md) | [繁體中文](README_CHT.md)
 
 </div>
-
-## 💖 Sponsors
-
-<div align="center">
-  <a href="https://serpapi.com/baidu-search-api?utm_source=github_daily_stock_analysis" target="_blank">
-    <img src="../sources/serpapi_banner_en.png" alt="Easily scrape real-time financial news data from search engines - SerpApi" height="160">
-  </a>
-</div>
-<br>
 
 ## ✨ Key Features
 
@@ -134,7 +125,7 @@ The system will:
 #### 1. Clone Repository
 
 ```bash
-git clone https://github.com/ZhuLinsen/daily_stock_analysis.git
+git clone https://github.com/catchfu/stock_analysis_daily.git
 cd daily_stock_analysis
 ```
 
@@ -396,8 +387,8 @@ The developers of this tool are not liable for any financial losses resulting fr
 
 ## 📞 Contact
 
-- GitHub Issues: [Report bugs or request features](https://github.com/ZhuLinsen/daily_stock_analysis/issues)
-- Discussions: [Join discussions](https://github.com/ZhuLinsen/daily_stock_analysis/discussions)
+- GitHub Issues: [Report bugs or request features](https://github.com/catchfu/stock_analysis_daily/issues)
+- Discussions: [Join discussions](https://github.com/catchfu/stock_analysis_daily/discussions)
 
 ---
 
