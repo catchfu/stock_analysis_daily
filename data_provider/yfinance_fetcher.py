@@ -65,53 +65,53 @@ class YfinanceFetcher(BaseFetcher):
         - A股沪市：600519.SS (Shanghai Stock Exchange)
         - A股深市：000001.SZ (Shenzhen Stock Exchange)
         - 港股：0700.HK (Hong Kong Stock Exchange)
+        - 澳洲股市：BHP.AX (Australian Securities Exchange)
         - 美股：AAPL, TSLA, GOOGL (无需后缀)
 
         Args:
-            stock_code: 原始代码，如 '600519', 'hk00700', 'AAPL'
+            stock_code: 原始代码，如 '600519', 'hk00700', 'AAPL', 'BHP.AX'
 
         Returns:
             Yahoo Finance 格式代码
-
-        Examples:
-            >>> fetcher._convert_stock_code('600519')
-            '600519.SS'
-            >>> fetcher._convert_stock_code('hk00700')
-            '0700.HK'
-            >>> fetcher._convert_stock_code('AAPL')
-            'AAPL'
         """
         import re
 
         code = stock_code.strip().upper()
 
-        # 美股：1-5个大写字母（可能包含 .），直接返回
+        # 1. 已经包含常见国际市场后缀的情况 (e.g. .AX, .L, .TO, .SS, .SZ, .HK)
+        if re.search(r'\.[A-Z]{1,3}$', code):
+            logger.debug(f"识别到已包含市场后缀: {code}")
+            return code
+
+        # 2. 美股：1-5个大写字母（可能包含 .），直接返回
         if re.match(r'^[A-Z]{1,5}(\.[A-Z])?$', code):
             logger.debug(f"识别为美股代码: {code}")
             return code
 
-        # 港股：hk前缀 -> .HK后缀
+        # 3. 港股：hk前缀 -> .HK后缀
         if code.startswith('HK'):
-            hk_code = code[2:].lstrip('0') or '0'  # 去除前导0，但保留至少一个0
-            hk_code = hk_code.zfill(4)  # 补齐到4位
+            hk_code = code[2:].lstrip('0') or '0'
+            hk_code = hk_code.zfill(4)
             logger.debug(f"转换港股代码: {stock_code} -> {hk_code}.HK")
             return f"{hk_code}.HK"
 
-        # 已经包含后缀的情况
-        if '.SS' in code or '.SZ' in code or '.HK' in code:
-            return code
-
+        # 4. A股处理
         # 去除可能的 .SH 后缀
         code = code.replace('.SH', '')
 
-        # A股：根据代码前缀判断市场
+        # 根据代码前缀判断市场
         if code.startswith(('600', '601', '603', '688')):
             return f"{code}.SS"
         elif code.startswith(('000', '002', '300')):
             return f"{code}.SZ"
-        else:
-            logger.warning(f"无法确定股票 {code} 的市场，默认使用深市")
-            return f"{code}.SZ"
+        
+        # 5. 无法识别时的兜底
+        if code.isdigit():
+             logger.warning(f"无法确定股票 {code} 的市场，默认使用深市")
+             return f"{code}.SZ"
+        
+        # 字母代码但没匹配到美股格式，可能已包含特殊后缀或属于其他市场，直接返回尝试
+        return code
     
     @retry(
         stop=stop_after_attempt(3),
